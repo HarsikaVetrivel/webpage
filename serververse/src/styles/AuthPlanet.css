@@ -1,0 +1,46 @@
+.auth-container {
+text-align: center;
+padding: 2rem;
+color: white;
+}
+
+.login-form {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 2rem;
+}
+
+.login-form input {
+margin: 10px 0;
+padding: 10px;
+width: 250px;
+border: none;
+border-radius: 8px;
+}
+
+.login-form button {
+background-color: #00b894;
+color: white;
+padding: 10px 20px;
+border-radius: 8px;
+border: none;
+cursor: pointer;
+}
+
+.auth-message {
+margin-top: 1rem;
+font-weight: bold;
+}
+
+.token-box {
+background-color: #1e272e;
+padding: 1rem;
+margin-top: 1rem;
+border-radius: 10px;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+word-break: break-word;
+color: #dff9fb;
+}

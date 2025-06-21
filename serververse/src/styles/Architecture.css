@@ -1,0 +1,48 @@
+.architecture-container {
+padding: 2rem;
+text-align: center;
+color: white;
+}
+
+.card-wrapper {
+display: flex;
+justify-content: center;
+gap: 2rem;
+flex-wrap: wrap;
+margin-top: 2rem;
+}
+
+.card {
+width: 250px;
+background-color: #1f1f2e;
+border-radius: 16px;
+padding: 20px;
+transition: transform 0.3s ease;
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+.card-img {
+width: 64px;
+margin-bottom: 1rem;
+}
+
+.mvc-section {
+margin-top: 4rem;
+}
+
+.mvc-card {
+background-color: #2a2a3c;
+border-radius: 16px;
+max-width: 500px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.mvc-img {
+width: 80px;
+margin-bottom: 1rem;
+}

@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: radial-gradient(#0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.planet-container {
+  padding: 30px;
+  text-align: center;
+}
+
+.accordion {
+  margin: 15px auto;
+  width: 80%;
+  background: #1f1f2e;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.accordion-title h3 {
+  margin: 0;
+}
+
+.accordion-content {
+  margin-top: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
